@@ -109,9 +109,10 @@ input[type="text"] {
 	position: fixed; top: 15px;
 	width: 873px; height: 101px; padding-top: 5px; padding-left: 22px;
 	background: url(../images/super_form.png) 0 0 no-repeat;
+
 }
-.super_form .text_field {width: 440px; float: left; font-size: 24px;}
-.super_form .text_field strong {font-weight: normal; font-family: 'DINProBold', Arial, sans-serif;}
+.super_form .text_field {width: 440px; float: left; font-size: 24px; }
+.super_form .text_field strong {font-weight: normal; font-family: 'DINProBold', Arial, sans-serif; }
 .super_form .text_field span {font-family: 'DINProMedium', Arial, sans-serif;}
 .super_form .pox0 {
 	width: 403px; height: 76px; padding-top: 11px; padding-left: 11px;
@@ -125,7 +126,7 @@ input[type="text"] {
 	background: url(../images/pox_but0.png) 0 0 no-repeat;
 	border: none;
 }
-
+.head {font-size: 20px; color: #d24a43; font-family: 'DINProRegular', Arial, sans-serif;}
 .about {
 	min-height: 360px;
 	padding-top: 47px;
@@ -167,11 +168,34 @@ section.advants h1 {margin-bottom: 40px;}
 	line-height: normal; font-size: 16px; color: #000000}
 .advants .item strong {font-family: 'DINProBold', Arial, sans-serif; color: #d24a43;}
 
-.get_desc {padding-left: 440px; position: relative; min-height: 350px; border-bottom: 1px solid #d24a43;}
-.get_desc:before {
+.advants .get_desc {padding-left: 430px; position: relative; min-height: 350px; border-bottom: 1px solid #d24a43;}
+.advants .get_desc .video {
 	display: block; content: '';
-	width: 486px; height: 350px;
-	position: absolute; top: 0; left: -46px;
+	width: 420px; height: 350px;
+	position: absolute; top: 0; left: -1px;
+}
+
+
+
+section.advants2 {position: relative; margin-bottom: 0;}
+section.advants2 h1 {margin-bottom: 40px;}
+.advants2:before {display: block; content: ""; position: absolute; top: 0; left: 0; right: 0; height: 450px;}
+.advants2 .four { position: relative; margin-bottom: 65px;}
+.advants2 .four .item {margin-bottom: 20px; background-color: rgba(255, 255, 255, 1); padding: 10px;
+	width: 530px; border-radius: 15px;
+	border-color: rgba(131, 131, 131, 0.6) ;
+	box-shadow:1px 1px 1px 1px rgba(0,0,0,0.2);}
+.advants2 .four .item span {display: inline-block; vertical-align: middle;
+	line-height: normal; font-size: 16px; color: #000000}
+.advants2 .item strong {font-family: 'DINProBold', Arial, sans-serif; color: #d24a43;}
+
+
+
+.advants2 .get_desc {padding-left: 430px; position: relative; min-height: 350px; border-bottom: 1px solid #d24a43;}
+.advants2 .get_desc:before {
+	display: block; content: '';
+	width: 541px; height: 350px;
+	position: absolute; top: 0; left: -1px;
 	background: url(../images/mocup.png) 0 0 no-repeat;
 }
 .get_desc .form {width: 473px; height: 326px; padding-top: 20px; background: url(../images/super_form2.png) 0 0 no-repeat; text-align: center;}
@@ -180,11 +204,15 @@ section.advants h1 {margin-bottom: 40px;}
 .get_desc .form form input[type="text"] {width: 344px; text-align: center;}
 .get_desc .form form input[type="submit"] {width: 388px; height: 57px; background: url(../images/pox_but.png) 0 0 no-repeat; border: none;}
 
-section.examples { border-bottom: 1px solid #d24a43; padding-bottom: 35px; margin-bottom: 25px;}
+section.examples {padding-bottom: 35px; margin-bottom: 25px;}
 .examples h1 {margin-bottom: 0;}
 .examples .list {text-align: justify; text-justify: newspaper; margin-top: -12px;}
 .examples .list:after {display: inline-block; content: ''; width: 100%; height: 0;}
-.examples .list .item {display: inline-block; width: 278px; height: 278px; margin-top: 35px; border-radius: 5px; box-shadow: 4px 4px 4px rgba(0,0,0,0.2); overflow: hidden;}
+.examples .list .item {display: inline-block;
+	width: 278px; height: 278px; margin-top: 35px;
+	border-radius: 5px; box-shadow: 4px 4px 4px rgba(0,0,0,0.2); overflow: hidden;
+	margin-right: 23px;
+	margin-left: 23px;}
 .examples .list .item img {max-width: 100%;}
 
 .pox_form2 {padding-left: 0;}
@@ -241,9 +269,7 @@ section.advants.hww .get_desc .form form input[type="submit"] {background-image:
 .bot_inf .activity strong {font-weight: normal; color: #d24a43; font-family: 'DINProBlack', Arial, sans-serif;}
 .bot_inf .activity span {font-family: 'DINProMedium', Arial, sans-serif;}
 
-.copy_s {position: absolute; top: 122px; left: 0; right: 0; bottom: 0; font-size: 20px; text-align: center;}
-
-
+.copy_s {position: absolute; top: 122px; left: 23px; right: 0; bottom: 0; font-size: 20px; text-align: left;}
 
 .slider {width: 470px; height: 301px; float: left; border-radius: 10px; border: 10px solid #fff; box-shadow: 5px 5px 5px rgba(0,0,0,0.2); position: relative;}
 
