@@ -125,7 +125,8 @@ input[type="text"] {
 }
 
 .about {
-	min-height: 360px; padding-top: 47px;
+	min-height: 360px;
+	padding-top: 47px;
 	background: url(../images/macket.png) 100% 100% no-repeat;
 }
 .about .block {padding-left: 25px; position: relative; font-size: 18px;}
@@ -152,13 +153,17 @@ input[type="text"] {
 .three .item {padding: 25px 0; font-size: 20px;}
 .three .item:first-child {padding-top: 15px;}
 
-section.advants {position: relative; margin-bottom: 0; background: url(../images/lamp.png) 100% 110px no-repeat;}
+section.advants {position: relative; margin-bottom: 0; background: url(../images/lamp.png) 100% 85px no-repeat;}
 section.advants h1 {margin-bottom: 40px;}
 .advants:before {display: block; content: ""; position: absolute; top: 0; left: 0; right: 0; height: 450px;}
-.advants .four {background: url(../images/four.png) 0 10px no-repeat; padding-left: 120px; position: relative; margin-bottom: 65px;}
-.advants .four .item {height: 100px; line-height: 100px;}
-.advants .four .item:first-child {line-height: 80px;}
-.advants .four .item span {display: inline-block; vertical-align: middle; line-height: normal; font-size: 20px;}
+.advants .four { position: relative; margin-bottom: 65px;}
+.advants .four .item {margin-bottom: 10px; background-color: rgba(12, 12, 12, 1); padding: 10px;
+	width: 530px; border-radius: 15px;
+	border-color: rgba(131, 131, 131, 0.6) ;
+	box-shadow:1px 1px 1px 1px rgba(0,0,0,0.6);}
+.advants .four .item span {display: inline-block; vertical-align: middle;
+	line-height: normal; font-size: 20px; color: #eeeeee}
+.advants .item strong {font-family: 'DINProBold', Arial, sans-serif; color: #d24a43;}
 
 .get_desc {padding-left: 440px; position: relative; min-height: 350px; border-bottom: 1px solid #d24a43;}
 .get_desc:before {
