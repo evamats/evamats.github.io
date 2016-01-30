@@ -126,7 +126,7 @@ input[type="text"] {
 
 .about {
 	min-height: 360px; padding-top: 47px;
-	background: url(../images/macket.jpg) 100% 100% no-repeat;
+	background: url(../images/macket.png) 100% 100% no-repeat;
 }
 .about .block {padding-left: 25px; position: relative; font-size: 18px;}
 .about .block:after {
