@@ -40,7 +40,9 @@ h6                { font-size: 11px; margin: 1.67em 0;}
 body, input, select, button, textarea
 				  { font-family: 'DINProRegular', Arial, sans-serif;}
 html 			  { overflow-y: scroll; height:100%; min-width:980px;}
-body 			  { background: url(../images/m_bg.jpg); text-align: left; line-height: 1.2; font-size: 13px; color: #2e302f; position:relative; height:100%;}
+body 			  { background: url(../images/m_bg.jpg);
+	text-align: left; line-height: 1.2;
+	font-size: 13px; color: #2e302f; position:relative; height:100%;}
 a           	  { color: #d24a43; text-decoration: underline;}
 a:hover 		  { text-decoration: none;}
 img 			  { border: none;}
@@ -157,12 +159,12 @@ section.advants {position: relative; margin-bottom: 0; background: url(../images
 section.advants h1 {margin-bottom: 40px;}
 .advants:before {display: block; content: ""; position: absolute; top: 0; left: 0; right: 0; height: 450px;}
 .advants .four { position: relative; margin-bottom: 65px;}
-.advants .four .item {margin-bottom: 10px; background-color: rgba(12, 12, 12, 1); padding: 10px;
+.advants .four .item {margin-bottom: 20px; background-color: rgba(255, 255, 255, 1); padding: 10px;
 	width: 530px; border-radius: 15px;
 	border-color: rgba(131, 131, 131, 0.6) ;
-	box-shadow:1px 1px 1px 1px rgba(0,0,0,0.6);}
+	box-shadow:1px 1px 1px 1px rgba(0,0,0,0.2);}
 .advants .four .item span {display: inline-block; vertical-align: middle;
-	line-height: normal; font-size: 20px; color: #eeeeee}
+	line-height: normal; font-size: 16px; color: #000000}
 .advants .item strong {font-family: 'DINProBold', Arial, sans-serif; color: #d24a43;}
 
 .get_desc {padding-left: 440px; position: relative; min-height: 350px; border-bottom: 1px solid #d24a43;}
@@ -321,9 +323,9 @@ section.advants.hww .get_desc .form form input[type="submit"] {background-image:
 
 .super-form {z-index: 99; position: fixed; left: 50%; top: 50%; width: 280px; background: #eaeaea; border-radius: 9px; min-height: 270px; margin: -135px 0 0 -140px; text-align: center;}
 .super-form-name {padding: 10px 20px; font-size: 18px; line-height: normal; color: #282828;}
-#callback-window .text_field {width: 440px; text-align: center; font-size: 24px;}
+#callback-window .text_field {width: 440px; text-align: center; font-size: 24px; }
 #callback-window .text_field strong {font-weight: normal; font-family: 'DINProBold', Arial, sans-serif;}
-#callback-window .text_field span {font-family: 'DINProMedium', Arial, sans-serif;}
+#callback-window .text_field span {font-family: 'DINProMedium', Arial, sans-serif;  vertical-align: middle;}
 
 
 .super-form-div {position: relative; margin: 0 0 10px 14px; width: 254px; height: 47px;}
